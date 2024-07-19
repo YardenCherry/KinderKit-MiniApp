@@ -42,51 +42,53 @@ Kinderkit is a versatile child management application designed to simplify the o
 
 
 
-## "Sign in / up" screens:
-![image](https://github.com/user-attachments/assets/5019bf8c-32b0-4d16-a7f8-ce754273b80e)
-![image](https://github.com/user-attachments/assets/4d8b07be-8ed5-4196-b26d-017f0e9c7edc)
+## "Sign in" screen:
 
+![Screenshot_20240714_162258](https://github.com/user-attachments/assets/1b4c59a5-e225-48b0-9bff-6216befbe0c8)
 
 
 
 ## User details bar:
 
-![תמונה של WhatsApp‏ 2024-07-16 בשעה 23 42 03_5c4c58fc](https://github.com/user-attachments/assets/6a3bbf9d-8d67-4fd2-9cf6-7117e6ad6b4a)
+![menu screen](https://github.com/user-attachments/assets/68c2f619-fd05-4ad3-abad-4d866f317f41)
 
 
 ## User "Kids Menu" screen & "Add New Kid" screen:
-![תמונה של WhatsApp‏ 2024-07-16 בשעה 22 23 56_025286c1](https://github.com/user-attachments/assets/0e8c507b-40ae-4fb1-bc3a-ea980c7d9790)
 
-![תמונה של WhatsApp‏ 2024-07-16 בשעה 22 26 38_f7dd30c9](https://github.com/user-attachments/assets/2e9c36aa-efe1-41a7-8334-092025f504b8)
+![Home page screen](https://github.com/user-attachments/assets/89d8a502-4824-41dc-90cf-8824373f3c9b)
+
+![add new kid screen](https://github.com/user-attachments/assets/1fc6eff4-7f3b-4a43-be1b-910c2e5a11ed)
+![new kid add successfully](https://github.com/user-attachments/assets/c62c73b9-66d3-437a-a8e5-452995a5a9aa)
 
 
 ## "Kid's Card" screen:
 
-![תמונה של WhatsApp‏ 2024-07-16 בשעה 22 26 57_71ab5103](https://github.com/user-attachments/assets/83bc7f8a-5455-4fa1-b7ee-616942424ea7)
+![kid profile](https://github.com/user-attachments/assets/cd3bd359-0360-4c24-a18b-07bbe69aea31)
 
 
 ## "Kid's Gallery" screen:
 
-![image](https://github.com/NetanelBCN/KinderKit/assets/134021385/437bd244-69d5-4a38-893a-e0c34cf64ae1)
+![kid gallery screen](https://github.com/user-attachments/assets/fc3651b4-28a3-4f9b-b4c8-3829cfc56eba)
+
 
 ## "Kid's Immunization Records" screen & "Add New Immunization Record" screen:
 
-![image](https://github.com/NetanelBCN/KinderKit/assets/134021385/3872f228-d462-4c13-ba97-ea9c7cb7e8e7)
-![image](https://github.com/NetanelBCN/KinderKit/assets/134021385/b419adb8-0a4c-4fae-9167-3aaf5a3b0329)
+![immunizations](https://github.com/user-attachments/assets/1bbce19f-538d-40f9-95a4-e78c401294b8)
+![add new record](https://github.com/user-attachments/assets/a0e3f142-36e4-464d-97b4-8724908381fc)
+
 
 ## "Kid's Events" screen & "Add New Event" screen:
+![kid's event screen](https://github.com/user-attachments/assets/27595e4e-644e-4b4f-84ce-cabcb578e881)
 
-![תמונה של WhatsApp‏ 2024-07-16 בשעה 22 30 17_90567351](https://github.com/user-attachments/assets/2d13d85d-af9c-4661-991d-edb7e35ae804)
+![add new event screen](https://github.com/user-attachments/assets/30ab9416-b763-4029-92bb-69b4bae22768)
 
-![תמונה של WhatsApp‏ 2024-07-16 בשעה 23 45 27_1368fb51](https://github.com/user-attachments/assets/5edad9b9-2463-44e3-91e5-cf5c539095d8)
+## "Babysitter's Service Screen:
+![babysitter service](https://github.com/user-attachments/assets/35f105b8-61b1-4800-8691-ca367b1f081f)
 
 
 1. Clone the repository:
 `git clone https://github.com/YardenCherry/KinderKit-MiniApp.git
 `
-
-
-
 
 
 ## Watch Me!
