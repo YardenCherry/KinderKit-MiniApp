@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_event_card.xml -->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_marginVertical="10dp"
+    android:background="#E6AAFBC5"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Date -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/EKC_MTV_eventDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="@string/event_date"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+    <!-- Event Text -->
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/EKC_MTV_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/event_description"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/EKC_MB_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/delete" />
+</androidx.appcompat.widget.LinearLayoutCompat>

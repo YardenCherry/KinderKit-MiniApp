@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!-- item_photo_card.xml -->
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <!-- Photo -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/PG_SIV_Photo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:background="@color/skyBlue"
+        android:scaleType="centerCrop"
+        android:src="@drawable/eliya" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/PG_MB_SetAsProfilePicture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/set_as_profile_picture" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/PG_MB_Delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/delete" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

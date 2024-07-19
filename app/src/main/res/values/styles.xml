@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><!--<resources>-->
+
+<resources>
+
+    <style name="LoginTheme" parent="FirebaseUI">
+        <item name="colorAccent">@color/pink</item>
+        <item name="colorControlHighlight">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:windowBackground">@drawable/logging_background</item>
+        <item name="actionMenuTextColor">@color/pink</item>
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorControlActivated">@color/pink</item>
+        <item name="colorPrimaryDark">@color/skyBlue</item>
+        <item name="colorControlNormal">@color/pink</item>
+        <item name="colorButtonNormal">@color/pink</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textColor">@color/pink</item>
+        <item name="android:textColorHint">@color/black</item>
+    </style>
+
+
+    <style name="FirebaseUI.TextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/pink</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Image.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <color name="pink">#C2195D</color>
+    <color name="skyBlue">#0844F3</color>
+
+
+</resources>

@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Background Image -->
+        <ImageView
+            android:id="@+id/backgroundImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:scaleType="centerCrop"
+            android:src="@drawable/addkidbackground" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/AK_SIV_imageViewProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/GA_MTV_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AK_SIV_imageViewProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="#DDF6E4"
+            android:padding="10dp"
+            android:text="@string/add_new_kid"
+            android:textColor="#0AA0FA"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/AK_ACET_editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/GA_MTV_title"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:hint="@string/first_name"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/AK_ACET_editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/AK_ACET_editTextFirstName"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="@string/last_name"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/AK_ACET_editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/AK_ACET_editTextLastName"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="Phone Number (to create account for the kid)"
+            android:inputType="phone"
+            android:padding="10dp" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/AK_MTV_textViewBirthDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AK_ACET_editTextPhone"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:text="@string/choose_birth_date"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <DatePicker
+            android:id="@+id/AK_DP_datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AK_MTV_textViewBirthDate"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/light_blue"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:spinnersShown="true" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/AK_MB_buttonAddPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AK_DP_datePicker"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/skyBlue"
+            android:text="@string/add_profile_photo" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/AK_MB_buttonAddKid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/AK_MB_buttonAddPhoto"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/add_kid" />
+    </RelativeLayout>
+
+</ScrollView>

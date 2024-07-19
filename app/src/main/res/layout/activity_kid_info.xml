@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.KidInfoActivity">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/kidinfoback" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/FH_SIV_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FH_MTV_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:background="#DDF6E4"
+        android:text="@string/kinderKit"
+        android:textColor="#0AA0FA"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/FH_SIV_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/FH_MTV_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_launcher_background"
+        app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.MyApp.Image.Circle" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FH_MTV_full_name"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_SIV_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="15dp"
+        android:background="#F3F7F8FD"
+        android:paddingHorizontal="10dp"
+        android:text="Eliya Cohen"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FH_MTV_age"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_MTV_full_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginVertical="20dp"
+        android:background="#F3F7F8FD"
+        android:paddingHorizontal="10dp"
+        android:text="5 Years Old"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FH_MTV_bDay"
+        style="@style/MyTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_MTV_age"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="15dp"
+        android:background="#F3F7F8FD"
+        android:paddingHorizontal="10dp"
+        android:text="09/11/2018"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/FH_LLC_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_MTV_bDay"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/FH_BTN_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="#D8F313BB"
+            android:text="@string/open_gallery"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/FH_BTN_events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#D8F313BB"
+            android:text="@string/events"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/FH_BTN_immunization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_LLC_buttons"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0A3EFA"
+        android:text="@string/Immunization_record"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/FH_BTN_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_BTN_immunization"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF0000"
+        android:text="@string/delete_kid"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

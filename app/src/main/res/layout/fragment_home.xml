@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.ui.home.HomeFragment">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/homepagebackgrond" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/FH_SIV_logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/FH_MTV_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="#DDF6E4"
+        android:padding="10dp"
+        android:text="@string/kinderKit"
+        android:textColor="#0AA0FA"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/FH_RV_kids"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/FH_MTV_title"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+
+</RelativeLayout>
