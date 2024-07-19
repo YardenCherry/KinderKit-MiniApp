@@ -4,11 +4,11 @@
 
 # KinderKit 
 
-
 ## Introduction
 
 Kinderkit is a versatile child management application designed to simplify the organization of children's information and activities. With Kinderkit, users can create accounts using their phone numbers or Gmail accounts, allowing for convenient access to a range of features.
 
+#### The application is being integrated to the server FamilyCare360 : (https://github.com/YardenCherry/FamilyCare360.git)
 
 
 
@@ -82,7 +82,7 @@ Kinderkit is a versatile child management application designed to simplify the o
 
 
 1. Clone the repository:
-`git clone https://github.com/NetanelBCN/miniappKinderkit
+`git clone https://github.com/YardenCherry/KinderKit-MiniApp.git
 `
 
 
@@ -95,16 +95,4 @@ Kinderkit is a versatile child management application designed to simplify the o
 
 https://github.com/user-attachments/assets/9a4af61b-94e9-458c-9977-6b06791dc7e3
 
-
-
-
-
-## License
-
-Copyright (c) 2024 Netanel Boris Cohen Niazov 
-
-
-## Authors
-
-- Netanel Boris Cohen Niazov 
 
